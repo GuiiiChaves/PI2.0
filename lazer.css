@@ -1,0 +1,27 @@
+/* Estilo para a lista de lazer */
+.leisure-list {
+  list-style: none;
+  padding: 0%;
+  margin: 10px 0; /* Espaçamento entre os itens da lista */
+  
+}
+
+.leisure-item {
+  margin-bottom: 20px; /* Espaçamento entre os itens da lista */
+  border: 10px solid #000000; /* Adicione uma borda para separar visualmente os itens */
+  border-radius: 10%;
+  padding-right:40px;
+  padding-left:40px; /* Adicione um preenchimento interno para espaçamento */
+  background-color: rgb(255, 255, 255); /* Defina a cor de fundo para branco */
+  text-align: center; /* Centralize o conteúdo horizontalmente */
+  border-style:double;
+
+}
+
+.leisure-item img {
+  max-width: 400px; /* Tamanho máximo da imagem */
+  border-radius: 20%;
+  height: auto;
+  display: flex; /* Isso permite que a margem lateral 'flex' funcione para centralizar verticalmente */
+  margin: 0 auto; /* Centralize vertical e horizontalmente */;
+}
